@@ -6,5 +6,6 @@ kops create cluster \
     --networking calico \
     --vpc $(terraform output vpc_id) \
     --target=terraform \
+    --ssh-public-key ~/.ssh/id_rsa.pub \
     --out=. \
     ${NAME}
