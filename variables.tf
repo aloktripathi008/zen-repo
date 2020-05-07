@@ -3,11 +3,11 @@ variable "name" {
 }
 
 variable "region" {
-  default = "ap-south-1"
+  default = "us-west-2"
 }
 
 variable "azs" {
-  default = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]
+  default = ["us-west-2a", "us-west-2b", "us-west-2c"]
   type    = "list"
 }
 
@@ -16,5 +16,5 @@ variable "env" {
 }
 
 variable "vpc_cidr" {
-  default = "10.20.0.0/16"
+  default = "10.0.0.0/16"
 }
