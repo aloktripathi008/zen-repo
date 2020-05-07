@@ -1,0 +1,7 @@
+# ConfigMap to expose configuration related to backend application
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-conf # name of configMap
+data:
+  server-uri: aaa3bbf42902b11eabed502fbe9e555b-290146686.us-west-2.elb.amazonaws.com # enternal ip of backend application 'Service'
