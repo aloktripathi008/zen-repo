@@ -3,7 +3,7 @@ Assumptions/PreRequisites:
 
 
 Terraform Scripts are stored directly on zen-repo.
-Kops command is in kops-create file
+Kops command is in kops-create.md file
 
-And Kubernetes deployement files for Frontend, Backend and Database are inside
+And Kubernetes deployement files for Frontend, Backend and Database are inside application-repo
 
